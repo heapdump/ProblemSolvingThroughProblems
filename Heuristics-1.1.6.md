@@ -46,6 +46,7 @@ Those can generate 8, 16, 64 expanding our set to digits 1,2,4,6,8.
 However 6x6 and 4x8 can introduce a 3 into our set - but only as a pair 3,6 or 3,2
 Similarly 2x8, 4x3 can introduce 1 but never next to a 3 (16, 12, 36).  
 This means our odd numbers will never be next to each other and will always be multiplied by 2,4,6,8.
+When that happens we will generate sequences of numbers in the same set [1,2,3,4,6,8]
 
 Suppose we generate a 6 - we don't know what the last number will be, but it must be in our set. Let's do the cases.
 * Case 1 - 1x6 = 6 - we have generated another 6.
