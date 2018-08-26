@@ -48,15 +48,15 @@ Similarly 2x8, 4x3 can introduce 1 but never next to a 3 (16, 12, 36).
 This means our odd numbers will never be next to each other and will always be multiplied by 2,4,6,8.
 
 Suppose we generate a 6 - we don't know what the last number will be, but it must be in our set. Let's do the cases.
-Case 1 - 1x6 = 6 - we have generated another 6.
-Case 2 - 2x6 = 1,2 = 1,2,2,4,8,3,2,2,4,6 - we have generated another 6
-Case 3 - 3x6 = 1,8 = 1,8,8,6,4 - we have generated another 6
-Case 4 - 4x6 = 2,4 = 2,4,8 - same as Case 2
-Case 5 - Not applicable, outside of set
-Case 6 - 6x6 = 3,6 = same as Case 3
-Case 7 - Not applicable, outside of set
-Case 8 - 6x8 = 4,8 = 4,8,3,2,6 - we have generated another 6
-Case 9 - Not applicable, outside of set
+* Case 1 - 1x6 = 6 - we have generated another 6.
+* Case 2 - 2x6 = 1,2 = 1,2,2,4,8,3,2,2,4,6 - we have generated another 6
+* Case 3 - 3x6 = 1,8 = 1,8,8,6,4 - we have generated another 6
+* Case 4 - 4x6 = 2,4 = 2,4,8 - same as Case 2
+* Case 5 - Not applicable, outside of set
+* Case 6 - 6x6 = 3,6 = same as Case 3
+* Case 7 - Not applicable, outside of set
+* Case 8 - 6x8 = 4,8 = 4,8,3,2,6 - we have generated another 6
+* Case 9 - Not applicable, outside of set
 
 Thus, as soon as we generate a 6 - we know we will generate another one given all the numbers are in the set [1,2,3,4,6,8]
 In this case - we satisfy the criteria on the 7th step of the sequence
