@@ -153,3 +153,19 @@ Sequence using 2
 2 x 9 = 1,8
 
 Note that 2 isn't "followed" by 0,2,4, or 8
+
+# New Proof
+
+As soon as I have three 6s together (step 14) that will create
+* 3,6,3,6 at the end of the string
+
+That goes onto create three "18s" at the end of the string
+* 1,8,1,8,1,8
+
+Which then creates five "8s" at the end of the string
+* 8,8,8,8,8
+
+Which then creates four "64s" at the end of the string
+* 6,4,6,4,6,4,6,4
+
+Which then creates seven "2,4" pairs --> which creates seven "8s" of which we only need five "8s" as mentioned above.  We have infinite looping at the end of the string.
