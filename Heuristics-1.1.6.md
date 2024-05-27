@@ -74,8 +74,8 @@ a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>,... starting with a<sub>1</sub> = 2 
 
 a<sub>1</sub> = 2, a<sub>2</sub> = 7
 The rule states that if 
-** If a<sub>i</sub> * a<sub>i+1</sub is a one-digit nubmer, the next term is this product.
-** If a<sub>i</sub> * a<sub>i+1</sub is a two-digit nubmer, the next two terms are the digits of this product.
+** If a<sub>i</sub> * a<sub>i+1</sub> is a one-digit nubmer, the next term is this product.
+** If a<sub>i</sub> * a<sub>i+1</sub> is a two-digit nubmer, the next two terms are the digits of this product.
 
 ### Starting the Sequence
 
