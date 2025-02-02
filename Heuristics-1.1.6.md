@@ -169,3 +169,10 @@ Which then creates four "64s" at the end of the string
 * 6,4,6,4,6,4,6,4
 
 Which then creates seven "2,4" pairs --> which creates seven "8s" of which we only need five "8s" as mentioned above.  We have infinite looping at the end of the string.
+
+# Additional Simplification
+
+From step 5 I have "2,8,2,8" as the end sequence.
+* That will lead me to a new sequence - 1,6,1,6,1,6 (step 9)
+* And that will lead to a new sequence - 6,6,6 (step 14)
+* Leads to 3,6,3,6 and we use prior proof
